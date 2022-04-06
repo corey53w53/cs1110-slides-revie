@@ -4,3 +4,6 @@ print(s[:100])
 #no error from the second argument if its larger than the index
 l=[0,1,2,3]
 print(l[:2])
+escape="\\hello\'"
+print(escape)
+print(len(escape))
