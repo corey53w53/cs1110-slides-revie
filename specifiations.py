@@ -11,4 +11,9 @@ def count_vowels(s):
     Paramter s: The string to check for vowels
     Precondition: s is a string
     """
-    pass
+    r=0
+    for letter in s.lower():
+        if letter in "aeiou":
+            r+=1
+    return r
+print(count_vowels("aeiou"))
