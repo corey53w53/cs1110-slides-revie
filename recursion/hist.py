@@ -4,4 +4,4 @@ def hist(s):
     if s[0] in d: d[s[0]]+=1
     else: d[s[0]]=1
     return d
-print(hist("abracadabra"))
+print(hist("car"))
