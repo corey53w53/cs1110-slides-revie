@@ -11,7 +11,7 @@ class child(test):
 class grandchild(test):
     def __init__(self,a,b):
         super(child,child).__init__(a+2,b+2)
-
+print("branch")
 me=grandchild(3,4)
 print(me.a)
 print(me.b)
