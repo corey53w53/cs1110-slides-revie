@@ -1,4 +1,4 @@
-def f(nlist):
-    if nlist==[]: return []
-    return f(nlist[1:]) if nlist[0]<0 else [nlist[0]]+f(nlist[1:])
-print(f([1,-2,3,0,-5,6]))
+def f(l):
+    if l==[]: return []
+    return f(l[1:]) if l[0]<0 else [l[0]]+f(l[1:])
+print(f([0,1,-3,4,-7,2]))
